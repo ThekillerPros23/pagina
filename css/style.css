@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	animation: sprite 3s infinite;
+	background: white;
+}
+.form{
+	height: 300px;
+	width: 300px;
+	background: gray;
+	justify-content: center;
+	display: flex;
+	transform: translateY(100px);
+	transform: translateX(200px);
+}
+input{
+
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	border-radius: 30px;
+	border: 1px solid;
+	display: block;
+}
+button{
+	transform: translateX(35px);
+	border-radius: 30px;
+	border: 3px solid green;
+	width: 200px;
+
+}
+.listas ul {
+	justify-content: flex-end;
+	display: flex;
+
+}
+.listas ul li{
+	border:  1px solid;
+	display: inline-flex;
+}
+.main{
+	border-radius: 30px;
+	text-align: center;
+	border: 1px solid;
+	width: 300px;
+	display: block;
+}
+
+@keyframes dante{
+	0%{
+		background:url("/css") ;
+	}
+}
+@keyframes sprite
+{
+	0%{
+		background: blue;
+	}
+	25%{
+		background: red;
+	}
+	50%{
+		background: purple;
+	}
+	75%{
+		background: white;
+	}
+	100%{
+		background: blue;
+	}
+}
